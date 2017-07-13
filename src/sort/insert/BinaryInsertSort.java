@@ -5,23 +5,7 @@ package sort.insert;
  * 二分法插入排序
  */
 public class BinaryInsertSort {
-    /*
-    伪代码
-    BINARY-INSERT-SORT(A)
-        for i = 1 to A.length
-            //Binary Search
-            left = 0,right = i-1，key = A[i]
-            //Pay attention to the end of the loop:left = right
-            while(left<=right)
-                midIndex = (left+right)/2
-                if(A[midIndex]<key)
-                    left = midIndex+1
-                else
-                    right = midIndex-1
-            for j = i to left+1
-                A[j] = A[j-1]
-            A[left] = key
-     */
+
     public static void binartInsertSotr(int[] array){
         if(array == null)
             return;
